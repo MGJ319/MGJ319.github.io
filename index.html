@@ -10,6 +10,10 @@
 
     <style>
         
+         .imgbox{
+            margin: 30px 0px;
+        }
+        
         body{
             background-color: lightskyblue;
         }
@@ -36,10 +40,11 @@
         
         video{
             flex: 1;
-            display: flex;
+            width: 100%;
             align-items: center;
             border: 2px, solid paleturquoise;
         }
+        
         
         .navbar {
          background-color: paleturquoise;   
@@ -69,6 +74,7 @@
             border: 1px yellow;
         }
         
+        
         footer{
             background-color: paleturquoise;
             color: hotpink;
@@ -76,6 +82,11 @@
             font-size: 20px;
             font-family: 'Impact', sans-serif;
         }
+        
+         div img{
+            width: 100%;
+             border: 5px solid hotpink;
+        
 
         /* Most annoying - this handles the lines of the hamburger.
         Gotta change the rgba(255,0,0, 1) to your color.  It is (red,green,blue,transparency).
@@ -93,14 +104,14 @@
 
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">LSRL</a>
+            <a class="navbar-brand" href="index.html">LSRL</a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbarNav" style="">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Schedule</a>
+                        <a class="nav-link" href="LSRLSCHEDULE.html">Schedule</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Racers</a>
@@ -122,9 +133,10 @@
     <h1>
     Weclome to The Los Santos Racing League
     </h1>
+    
+    <p>The World's top drivers, The World's top content</p>
+    
     <br>
-    
-    
     <br>
     
     <center>
@@ -134,13 +146,22 @@
     </center>
     
     <br>
+    
+    <div class="container">
+      <div class="row">
+    <div class="imgbox col-12 col-md-4"><img src="Grand%20Theft%20Auto%20V_20210806012316.jpg"></div>
+    <div class="imgbox col-12 col-md-4"><img src="DRAG%20STRIPedit.jpg"></div>
+    <div class="imgbox col-12 col-md-4"><img src="GARAGEedit.jpg""></div>
+       </div>   
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 <footer>
     <p>LOS SANTOS RACING LEAGUE</p>
     <br>
-        <p>1169 E. VINEWOOD  LOS SANTOS ,SA  11111 * TEL. 800.345.4200</p>
+        <p>1169 E. VINEWOOD  LOS SANTOS ,SA  11111</p>
+        <p>LSLR@LIFEINVADER.COM</p>
     <br>
      <img src="social_fb.jpg"> <img src="social_tw.jpg"> <img src="social_yt.jpg">
     </footer>
